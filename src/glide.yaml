@@ -1,0 +1,9 @@
+package: .
+import:
+- package: golang.org/x/net
+  subpackages:
+  - context
+- package: google.golang.org/appengine
+  version: ~1.0.0
+  subpackages:
+  - datastore
